@@ -1,5 +1,4 @@
 Breadcrumbs is an small library that helps your manage HTML breadcrumbs with CodeIgniter.
-__* No longer maintained__
 
 ## Instalation
 
@@ -14,6 +13,7 @@ __* No longer maintained__
 	// add breadcrumbs
 	$this->breadcrumbs->push('Section', '/section');
 	$this->breadcrumbs->push('Page', '/section/page');
+	$this->breadcrumbs->push('Home', '/home', 'dashboard');
 
 	// unshift crumb
 	$this->breadcrumbs->unshift('Home', '/');
